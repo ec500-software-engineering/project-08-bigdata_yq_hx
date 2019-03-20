@@ -31,9 +31,10 @@ public class productLog {
         }
         return null;
     }
-
+    // sadasddsac
+    
     private void initPhone() {
-        for(int i=0; i < users; i++) {
+        for(int i = 0; i < users; i++) {
             String phoneNumber = "617";
             Random random = new Random();
             for (int j = 0; j < 7; j++) {
