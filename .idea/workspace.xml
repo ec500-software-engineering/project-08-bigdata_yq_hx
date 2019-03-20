@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d4f143-8dbc-4e45-8a39-8e7f0b02f1fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile_producer/mobile_producer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile_producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/createRandomName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mobile_producer/target/" />
@@ -33,12 +26,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-875">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#292#300#0" expanded="true" />
-                <element signature="e#392#408#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +67,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,7 +91,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
@@ -113,60 +104,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -226,17 +175,17 @@
       <updated>1552953226494</updated>
       <workItem from="1552953227957" duration="5633000" />
       <workItem from="1552963307022" duration="5789000" />
+      <workItem from="1553115647439" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11422000" />
+    <option name="totallyTimeSpent" value="12080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="33" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -278,9 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_producer/mobile_producer.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/createRandomName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -288,14 +234,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_producer/mobile_producer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#292#300#0" expanded="true" />
-            <element signature="e#392#408#0" expanded="true" />
           </folding>
         </state>
       </provider>
