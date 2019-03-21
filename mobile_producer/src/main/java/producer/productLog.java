@@ -4,6 +4,7 @@ import java.util.*;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+
 public class productLog {
     private int users = 50;
     private String startTime = "2018-01-01";
@@ -44,8 +45,6 @@ public class productLog {
             phoneList.add(phoneNumber);
             phoneMap.put(phoneNumber,name);
         }
-        System.out.println(phoneList);
-        System.out.println(phoneMap);
     }
 
     public String product() {
