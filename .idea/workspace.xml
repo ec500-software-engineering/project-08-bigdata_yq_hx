@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d4f143-8dbc-4e45-8a39-8e7f0b02f1fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Flume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/HBase-HDFS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Kafka-Zookeeper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/MapReduce.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_producer/target/classes/producer/productLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_producer/target/classes/producer/productLog.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mobile_producer/target/" />
@@ -31,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <first_editor relative-caret-position="155">
+                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,7 +112,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="185" />
+    <option name="x" value="46" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -136,6 +137,11 @@
             <path>
               <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553229489642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553230570753" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -161,6 +167,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2454044" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,15 +218,15 @@
       <workItem from="1552953227957" duration="5633000" />
       <workItem from="1552963307022" duration="5789000" />
       <workItem from="1553115647439" duration="658000" />
-      <workItem from="1553134722677" duration="15051000" />
+      <workItem from="1553134722677" duration="16016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27131000" />
+    <option name="totallyTimeSpent" value="28096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="46" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
@@ -294,11 +305,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/Flume.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <first_editor relative-caret-position="155">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
         </state>

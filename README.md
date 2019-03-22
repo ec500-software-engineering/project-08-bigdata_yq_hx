@@ -1,6 +1,7 @@
 # Big Data Analysis of Mobile Service
 ## Vision and Goals
 The project is the practice of big data analysis, we first come up with this idea because we are curious about today's new technology trend like cloud computing and big data, and we want to master these piece of knowledge, so we create this project.  
+
 Our goal is to analyze stream data from mobile service. Every time you call someone, it will generate call log including call duration, call frequency, etc. We want to use big data technology like Hadoop to analyze this raw data and transfer to what we want and visualize the result.  
 ## Users of the project and User Stories
 Users of the project
@@ -15,14 +16,24 @@ User Stories
 
 
 ## Architecture and Design
+Picture 1 is the Architecture Diagram
+<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/framework.png" height="600" width="600"></div>
 
+Picture 2 is the consume part, which is what we will do in Sprint 2
+<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Consume.png" height="400" width="400"></div>
+
+Picture 3 is analysis part, which is what we will do in Sprint 3
+<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Analysis.png" height="400" width="400"></div>
+
+Picture 4 is visualization part, which is what we will do in Sprint 4
+<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Visualization.png" height="400" width="400"></div>
+But right now, we haven't decided which web framework to use in visualization part, maybe Java SSM or maybe React, we will discuss in the future.
 
 ## Solution Concept
 - Flume
-- Kafka
-- Hbase
+- Kafka, Zookeeper
+- HBase, HDFS
 - MapReduce
-- Zookeeper
 - Hive
 
 ## Acceptance criteria
