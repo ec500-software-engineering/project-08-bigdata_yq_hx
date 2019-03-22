@@ -103,7 +103,7 @@ public class productLog {
         */
         productLog productLog = new productLog();
         productLog.initPhone();
-        productLog.writeLog("logs");
+        productLog.writeLog("logs.csv");
     }
 }
 
