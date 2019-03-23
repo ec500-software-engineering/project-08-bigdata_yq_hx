@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mobile_consumer" />
         <module name="mobile_producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mobile_consumer" target="1.5" />
       <module name="mobile_producer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
