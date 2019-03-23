@@ -6,7 +6,7 @@ Our goal is to analyze stream data from mobile service. Every time you call some
 ## Users and User Stories
 ### Users of the project
 - Mobile Operators
-- Mobile costomrs
+- Mobile customers
 - Data analyst  
 
 ### User Stories
@@ -15,7 +15,7 @@ For mobile operators:
 services such as family package
 - Visualize user data in the website for prediction
 
-For costomers:
+For customers:
 - Get call logs and other user information like intimacy
 - Reschedule service and data plan accordingly
 
