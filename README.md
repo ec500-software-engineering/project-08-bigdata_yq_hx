@@ -38,22 +38,39 @@ But right now, we haven't decided which web framework to use in visualization pa
 Our design is quite straightforward. The whole system is primarily on Java-based big data analysis. First is **data producer** part, then is **data consumer** part, finally is **data shower** part. We follow the schedule, on each part, we can do unit test, continuous integration and anything else, it's quite easy for us to make some changes in the whole process using this kind of design.
 ## Solution Concept
 ### Flume
-Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. Flume is often used in the condition with **small amount of consumer**, this is why we use Flume to connected to Hadoop ecosystem.
+Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. Flume is often used in the condition with **small amount of consumer**, this is why we use Flume to connected to Hadoop ecosystem.  
+
+We use Flume because Flume is a good choice on the condition that there are not too much consumers in the downstream. And Flume is a good **connector** Hadoop ecosystem.
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Flume.png" height="400" width="600"></div>
 
 ### Kafka, Zookeeper
 Apache Kafka is a distributed streaming platform. We use it to build **real-time streaming data pipelines** that reliably get data between systems or applications. We use kafka as consumer to receive data from Flume.
 
+We use Kafka because we want Kafka to be consumer for the data, and let Flume be producer of Kafka, this is a typical combination for data pipelines.
+
 Apache ZooKeeper is a software project of the Apache Software Foundation. It is essentially a centralized service for distributed systems to a hierarchical key-value store, which is used to provide a distributed configuration service, synchronization service, and naming registry for large distributed systems.
 Zookeeper
+
+In order to keep data consistency, we need to build Zookeeper clusters to maintain the service of both Kafka clusters and HBase.
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Kafka-Zookeeper.png" height="400" width="600"></div>
 
 ### HBase, HDFS
-Apache HBase is an open-source, distributed, versioned, non-relational database modeled after [Google's Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf). Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities **on top of Hadoop and HDFS**.
+Apache HBase is an open-source, distributed, versioned, non-relational database modeled after [Google's Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf). Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities **on top of Hadoop and HDFS. HDFS is the bottom layer for HBase.**
+
+For the raw data generated in mobile_producer, the form is that for example:  
+``
+6170178683,6171286608,2018-09-17 03:41:55,1308
+``
+After we design row key in HBase, the data would be like in this way:  
+``
+01_6170178683_20180917034155_6171286608_1_1308
+``
+
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/HBase-HDFS.png" height="400" width="600"></div>
 
 ### MapReduce
 MapReduce is one of the most important component in Hadoop, which is a software framework for easily writing applications which process vast amounts of data (multi-terabyte data-sets) in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner.
+
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/MapReduce.png" height="300" width="600"></div>
 
 ## Acceptance criteria
