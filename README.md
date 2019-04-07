@@ -21,19 +21,33 @@ For customers:
 
 
 ## Architecture and Design
-Picture 1 is the Architecture Diagram
+Picture 1 is the Architecture Diagram.  
+In this picture, we can divide the whole project into three parts:
+- consume part
+- analysis part
+- visualization part
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/framework.png" height="550" width="750"></div>
 
 Picture 2 is the consume part, which is what we will do in Sprint 2
+
+First, we generate some random fake calllog data using functions written by ourselves, we just want to simulate the stream-data environment.  
+
+Second, We set Flume as producer of Kafka, we use Flume to collect streaming data and sink it into kafka clusters. Zookeeper for here plays an important role in managing the cluster and coordinating the brokers/cluster topology.  
+
+Third, we use HBase to store our computed data, whose bottom layer uses HDFS.
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Consume.png" height="400" width="500"></div>
 
-Picture 3 is analysis part, which is what we will do in Sprint 3
+Picture 3 is analysis part, which is what we will do in Sprint 3  
+
+We poll data from HBase and using MapReduce to do some data analysis, then we put the result into MySQL.
 <div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Analysis.png" height="400" width="500"></div>
 
-Picture 4 is visualization part, which is what we will do in Sprint 4
-<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Visualization.png" height="400" width="500"></div>
+Picture 4 is visualization part, which is what we will do in Sprint 4  
 
 But right now, we haven't decided which web framework to use in visualization part, maybe Java SSM or maybe React, we will discuss in the future.  
+
+<div align = center><img src = "https://github.com/ec500-software-engineering/project-08-bigdata_yq_hx/blob/master/img/Visualization.png" height="400" width="500"></div>
+
 
 Our design is quite straightforward. The whole system is primarily on Java-based big data analysis. First is **data producer** part, then is **data consumer** part, finally is **data shower** part. We follow the schedule, on each part, we can do unit test, continuous integration and anything else, it's quite easy for us to make some changes in the whole process using this kind of design.
 ## Solution Concept
@@ -82,6 +96,7 @@ Minimum Viable Product
 - Sprint 3: Store data into Hbase and analyze data using MapReduce and store analyzed data into MySQL.
 - Sprint 4: Visualize data result and show them in Java-based framework.
 
+## Some tips on starter
 zookeeper start: bin/zookeeper-server-start.sh config/zookeeper.properties  
 kafka server start: bin/kafka-server-start.sh config/server.properties  
 kafka topic: bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic mytopic  
