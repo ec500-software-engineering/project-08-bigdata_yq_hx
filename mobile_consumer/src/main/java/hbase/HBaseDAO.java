@@ -30,6 +30,13 @@ public class HBaseDAO {
         conf = HBaseConfiguration.create();
     }
 
+    /*
+        hbase.mytopic.regions = 6;
+        hbase.mytopic.namespace = ns_mobile;
+        hbase.mytopic.tablename = ns_mobile.calllogs;
+
+     */
+
     public HBaseDAO() {
         try {
         connection = ConnectionFactory.createConnection(conf);
@@ -46,6 +53,13 @@ public class HBaseDAO {
             e.printStackTrace();
         }
     }
+
+    /*
+     * ori data format： 18576581848,17269452013,2017-08-14 13:38:31,1761
+     * rowkey：01_18576581848_20170814133831_17269452013_1_1761
+     * HBase column：call1  call2   build_time   build_time_ts   flag   duration
+     * @param ori
+     */
 
     public void put(String ori) {
         try {

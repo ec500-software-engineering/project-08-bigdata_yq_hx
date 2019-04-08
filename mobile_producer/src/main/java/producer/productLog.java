@@ -1,4 +1,5 @@
 package producer;
+
 import java.io.*;
 import java.util.*;
 import java.text.DecimalFormat;
@@ -103,7 +104,7 @@ public class productLog {
         */
         productLog productLog = new productLog();
         productLog.initPhone();
-        productLog.writeLog("logs.csv");
+        productLog.writeLog("callLogs/logs.csv");
     }
 }
 

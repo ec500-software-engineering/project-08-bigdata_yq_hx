@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d4f143-8dbc-4e45-8a39-8e7f0b02f1fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_大数据技术之项目：电信客服/12_大数据技术之项目：电信客服/3.代码/第二天（进行了写入优化）/.idea/第二天（进行了写入优化）.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3.代码/电信客服第五天/代码/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriterObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_producer/target/classes/producer/productLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_producer/target/classes/producer/productLog.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mobile_producer/target/" />
@@ -15,44 +29,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_producer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/kafka/HBaseConsumer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.3.1/hbase-server-1.3.1-sources.jar!/org/apache/hadoop/hbase/coprocessor/BaseRegionObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/utils/PropertiesUtil.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/hbase_consumer.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" selection-start-line="8" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -60,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="1050">
+              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,15 +145,18 @@
       <list>
         <option value="$PROJECT_DIR$/mobile_producer/pom.xml" />
         <option value="$PROJECT_DIR$/mobile_producer/src/main/java/producer/createRandomName.java" />
-        <option value="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" />
         <option value="$PROJECT_DIR$/logs.csv" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/mobile_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/PropertiesUtil.java" />
-        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java" />
+        <option value="$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java" />
+        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java" />
+        <option value="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" />
+        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriterObserver.java" />
+        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java" />
+        <option value="$PROJECT_DIR$/mobile_consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -129,14 +183,39 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mobile_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.hbase:hbase-client:2.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.hbase:hbase-client:2.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.hadoop:hadoop-common:2.7.7" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.hbase:hbase-client:2.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.hadoop:hadoop-common:2.7.7" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.hadoop:hadoop-annotations:2.7.7" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="298" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="774" />
@@ -149,44 +228,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -194,8 +271,17 @@
               <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -203,23 +289,102 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
               <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigData_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigData_project" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553310402466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554767671103" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,17 +460,35 @@
       <workItem from="1553134722677" duration="17928000" />
       <workItem from="1553295920897" duration="10469000" />
       <workItem from="1553309608232" duration="984000" />
+      <workItem from="1553311319080" duration="2884000" />
+      <workItem from="1553316406393" duration="544000" />
+      <workItem from="1553317538410" duration="288000" />
+      <workItem from="1553918644510" duration="31000" />
+      <workItem from="1554082526850" duration="83000" />
+      <workItem from="1554256253909" duration="346000" />
+      <workItem from="1554751313919" duration="2378000" />
+      <workItem from="1554756181418" duration="3554000" />
+      <workItem from="1554766118228" duration="1126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41461000" />
+    <option name="totallyTimeSpent" value="52695000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="298" y="23" width="1440" height="774" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,25 +501,58 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32768363" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32697946" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.33762518" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.30686694" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34017596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32697946" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24964234" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.30686694" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -356,13 +572,7 @@
     <entry file="file://$PROJECT_DIR$/img/Flume.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.csv" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -373,10 +583,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/common/serialization/StringDeserializer.class" />
+    <entry file="file://$PROJECT_DIR$/mobile_producer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -387,66 +608,107 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar!/org/apache/kafka/common/serialization/StringDeserializer.class">
+    <entry file="file://$PROJECT_DIR$/mobile_producer/target/classes/producer/productLog.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="1455">
+          <caret line="111" column="42" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_producer/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/2.1.1/hbase-client-2.1.1.jar!/org/apache/hadoop/hbase/Coprocessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/2.1.1/hbase-client-2.1.1-sources.jar!/org/apache/hadoop/hbase/Coprocessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-server/1.3.1/hbase-server-1.3.1-sources.jar!/org/apache/hadoop/hbase/coprocessor/BaseRegionObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/utils/PropertiesUtil.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/hbase_consumer.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" selection-start-line="8" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="1050">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java">
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/target/classes/kafka/HBaseConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
