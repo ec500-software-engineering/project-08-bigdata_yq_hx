@@ -64,8 +64,11 @@
     <orderEntry type="library" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.6.2.Final" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+=======
+>>>>>>> a53569da901192a3913657a928cd4e83c081ce94
     <orderEntry type="library" name="Maven: org.apache.hbase:hbase-server:1.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hbase:hbase-procedure:1.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hbase:hbase-common:tests:1.3.1" level="project" />
@@ -104,5 +107,10 @@
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: commons-daemon:commons-daemon:1.0.13" level="project" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+>>>>>>> a53569da901192a3913657a928cd4e83c081ce94
   </component>
 </module>

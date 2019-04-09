@@ -39,15 +39,17 @@ public class HBaseDAO {
 
     public HBaseDAO() {
         try {
-        connection = ConnectionFactory.createConnection(conf);
-        table = connection.getTable(TableName.valueOf(tableName));
-        regions = Integer.valueOf(PropertiesUtil.getProperty("hbase.mytopic.regions"));
-        namespace = PropertiesUtil.getProperty("hbase.mytopic.namespace");
-        tableName = PropertiesUtil.getProperty("hbase.mytopic.tablename");
+            regions = Integer.valueOf(PropertiesUtil.getProperty("hbase.mytopic.regions"));
+            namespace = PropertiesUtil.getProperty("hbase.mytopic.namespace");
+            tableName = PropertiesUtil.getProperty("hbase.mytopic.tablename");
+
+            connection = ConnectionFactory.createConnection(conf);
+            table = connection.getTable(TableName.valueOf(tableName));
+
 
             if(!HBaseUtil.isExistTable(conf, tableName)) {
                 HBaseUtil.initNamespace(conf, namespace);
-                HBaseUtil.createTable(conf, tableName, regions, "f1");
+                HBaseUtil.createTable(conf, tableName, regions, "f1", "f2");
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -93,13 +95,6 @@ public class HBaseDAO {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                table.close();
-                connection.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 }

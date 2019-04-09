@@ -52,8 +52,10 @@ public class HBaseUtil {
         for(String cf : columnFamily) {
             htd.addFamily(new HColumnDescriptor(cf));
         }
+        htd.addCoprocessor("hbase.CalleeWriteObserver");
         admin.createTable(htd, genSplitKeys(regions));
-
+        admin.close();
+        connection.close();
     }
 
     private static byte[][] genSplitKeys(int regions) {
