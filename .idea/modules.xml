@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bigData_project.iml" filepath="$PROJECT_DIR$/bigData_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile_analysis/mobile_analysis.iml" filepath="$PROJECT_DIR$/mobile_analysis/mobile_analysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" filepath="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile_producer/mobile_producer.iml" filepath="$PROJECT_DIR$/mobile_producer/mobile_producer.iml" />
     </modules>
