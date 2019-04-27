@@ -10,7 +10,7 @@ import org.apache.hadoop.hbase.coprocessor.RegionCoprocessorEnvironment;
 import org.apache.hadoop.hbase.regionserver.wal.WALEdit;
 import org.apache.hadoop.hbase.util.Bytes;
 import utils.HBaseUtil;
-import utils.PropertiesUtil;
+import utils.ConsumerPropertiesUtil;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -23,7 +23,7 @@ public class CalleeWriteObserver extends BaseRegionObserver{
             throws IOException {
         super.postPut(e, put, edit, durability);
         //1、获取你想要操作的目标表的名称
-        String targetTableName = PropertiesUtil.getProperty("hbase.mytopic.tablename");
+        String targetTableName = ConsumerPropertiesUtil.getProperty("hbase.mytopic.tablename");
         //2、获取当前成功Put了数据的表（不一定是我们当前业务想要操作的表）
         String currentTableName = e.getEnvironment().getRegionInfo().getTable().getNameAsString();
 
@@ -37,7 +37,7 @@ public class CalleeWriteObserver extends BaseRegionObserver{
         //如果当前插入的是被叫数据，则直接返回(因为默认提供的数据全部为主叫数据)
         if(oldFlag.equals("0")) return;
 
-        int regions = Integer.valueOf(PropertiesUtil.getProperty("hbase.mytopic.regions"));
+        int regions = Integer.valueOf(ConsumerPropertiesUtil.getProperty("hbase.mytopic.regions"));
 
         String caller = splitOriRowKey[1];
         String callee = splitOriRowKey[3];

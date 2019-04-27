@@ -4,14 +4,14 @@ import hbase.HBaseDAO;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import utils.PropertiesUtil;
+import utils.ConsumerPropertiesUtil;
 
 import java.util.Arrays;
 
 public class HBaseConsumer {
     public static void main(String[] args) {
-        KafkaConsumer<String, String> kafkaConsumer = new KafkaConsumer<String, String>(PropertiesUtil.properties);
-        kafkaConsumer.subscribe(Arrays.asList(PropertiesUtil.getProperty("kafka.topics")));
+        KafkaConsumer<String, String> kafkaConsumer = new KafkaConsumer<String, String>(ConsumerPropertiesUtil.properties);
+        kafkaConsumer.subscribe(Arrays.asList(ConsumerPropertiesUtil.getProperty("kafka.topics")));
 
         HBaseDAO hd = new HBaseDAO();
 

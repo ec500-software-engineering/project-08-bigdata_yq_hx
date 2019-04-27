@@ -9,7 +9,7 @@ import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
 import utils.HBaseUtil;
-import utils.PropertiesUtil;
+import utils.ConsumerPropertiesUtil;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -39,9 +39,9 @@ public class HBaseDAO {
 
     public HBaseDAO() {
         try {
-            regions = Integer.valueOf(PropertiesUtil.getProperty("hbase.mytopic.regions"));
-            namespace = PropertiesUtil.getProperty("hbase.mytopic.namespace");
-            tableName = PropertiesUtil.getProperty("hbase.mytopic.tablename");
+            regions = Integer.valueOf(ConsumerPropertiesUtil.getProperty("hbase.mytopic.regions"));
+            namespace = ConsumerPropertiesUtil.getProperty("hbase.mytopic.namespace");
+            tableName = ConsumerPropertiesUtil.getProperty("hbase.mytopic.tablename");
 
             connection = ConnectionFactory.createConnection(conf);
             table = connection.getTable(TableName.valueOf(tableName));
