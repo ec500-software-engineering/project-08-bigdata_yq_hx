@@ -17,19 +17,21 @@
       <change afterPath="$PROJECT_DIR$/../bigData_project/mobile_producer/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bigData_project/mobile_producer/src/main/java/producer/createRandomName.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../bigData_project/mobile_producer/src/main/java/producer/productLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/callLogs/logs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/callLogs/logs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ConsumerPropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_analysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_analysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile_consumer/target/classes/kafka_producer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mobile_consumer/target/classes/kafka_producer.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/mobile_producer/target/" />
     <ignored path="$PROJECT_DIR$/mobile_analysis/target/" />
     <ignored path="$PROJECT_DIR$/mobile_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/mobile_webserver/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,43 +39,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/resource/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#368#384#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/controller/CallLogHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#427#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ConsumerPropertiesUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="780">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,60 +62,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ProducerPropertiesUtil.java">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/jsp/CallLogChart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/createRandomName.java">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/bean/CallLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/bean/QueryInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/resource/dbconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/dao/CallLogDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -145,7 +141,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -159,22 +157,50 @@
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ProducerPropertiesUtil.java" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ConsumerPropertiesUtil.java" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaProducer.java" />
-        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java" />
         <option value="$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties" />
+        <option value="$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java" />
+        <option value="$PROJECT_DIR$/mobile_analysis/pom.xml" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/resource/dbconfig.properties" />
+        <option value="$PROJECT_DIR$/mobile_webserver/pom.xml" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/java/bean/callLog.java" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/java/bean/QueryInfo.java" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/java/dao/CallLogDAO.java" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/java/controller/CallLogHandler.java" />
+        <option value="$PROJECT_DIR$/mobile_webserver/src/main/webapp/jsp/CallLogChart.jsp" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_webserver Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mobile_webserver Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="51" />
+    <option name="x" value="16" />
+    <option name="y" value="23" />
     <option name="width" value="1318" />
-    <option name="height" value="774" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,105 +208,17 @@
               <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project-08-bigdata_yq_hx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-08-bigdata_yq_hx" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556401444168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556863096784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -296,6 +234,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.KafkaCalllogProducer">
+    <configuration name="HBaseConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.HBaseConsumer" />
+      <module name="mobile_consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaCalllogProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kafka.KafkaCalllogProducer" />
       <module name="mobile_consumer" />
@@ -325,6 +276,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.KafkaCalllogProducer" />
+        <item itemvalue="Application.HBaseConsumer" />
         <item itemvalue="Application.productLog" />
       </list>
     </recent_temporary>
@@ -339,62 +291,100 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556398489836</updated>
-      <workItem from="1556398494320" duration="2730000" />
+      <workItem from="1556398494320" duration="6570000" />
+      <workItem from="1556851921737" duration="10538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2730000" />
+    <option name="totallyTimeSpent" value="17108000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="51" width="1318" height="774" extended-state="0" />
-    <editor active="true" />
+    <frame x="16" y="23" width="1318" height="823" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32991204" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41935483" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.30779755" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299373" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/mobile_consumer.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/CalleeWriteObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1492" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hdfs-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ProducerPropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/HBaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -405,34 +395,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ConsumerPropertiesUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#411#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/utils/ProducerPropertiesUtil.java">
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/hbase/HBaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -443,35 +434,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_producer/src/main/java/producer/productLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase-site.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/hbase_consumer.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/resources/kafka_producer.properties">
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/HBaseConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile_consumer/src/main/java/kafka/KafkaCalllogProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#384#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/src/main/java/reducer/CountDurationReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_producer/mobile_producer.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/src/main/resources/hdfs-site.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/src/main/resources/hbase-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/mobile_analysis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_analysis/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3681" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/webapp/jsp/CallLogChart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/dao/CallLogDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/controller/CallLogHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/bean/QueryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/java/bean/CallLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/resource/dbconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_webserver/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
         </state>
       </provider>
     </entry>
