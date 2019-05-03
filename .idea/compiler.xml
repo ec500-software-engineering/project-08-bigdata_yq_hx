@@ -9,12 +9,14 @@
         <module name="mobile_analysis" />
         <module name="mobile_consumer" />
         <module name="mobile_producer" />
+        <module name="mobile_webserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mobile_analysis" target="8" />
       <module name="mobile_consumer" target="1.5" />
       <module name="mobile_producer" target="1.5" />
+      <module name="mobile_webserver" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

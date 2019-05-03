@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mobile_webserver:war">
+    <output-path>$PROJECT_DIR$/mobile_webserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mobile_webserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mobile_webserver.war">
+      <element id="artifact" artifact-name="mobile_webserver:war exploded" />
+    </root>
+  </artifact>
+</component>
