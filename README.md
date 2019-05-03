@@ -91,10 +91,10 @@ MapReduce is one of the most important component in Hadoop, which is a software 
 Minimum Viable Product
 - Help mobile operators to visualize and personalize their customer service 
 ## Release Planning
-- Sprint 1: Write project framework, architecture and design, user stories and form high level picture.
-- Sprint 2: Start to conduct data part, which contains generate stream data, deploy environment, using Flume as Kafka producer to collect data.
-- Sprint 3: Store data into Hbase and analyze data using MapReduce and store analyzed data into MySQL.
-- Sprint 4: Visualize data result and show them in Java-based framework.
+- Sprint 1: Architecture: Write project framework, architecture and design, user stories and form high level picture.
+- Sprint 2: Producer&Consumer: Start to conduct data part, which contains generate stream data, deploy environment, using Flume as Kafka producer to collect data.
+- Sprint 3: Analyzer: Store data into Hbase and design the rowkey, then using MapReduce to analyze and converge the data. Store the data into MySQL.
+- Sprint 4: Visulization: Visualize data result and show them in Java-based framework.
 
 ## Some tips on starter
 zookeeper start: bin/zookeeper-server-start.sh config/zookeeper.properties  
